@@ -70,19 +70,10 @@ li:hover {
 }
 
 .footer {
-<<<<<<< HEAD
-  background-color: #333;
-  color: #f0f0f0;
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-  border-radius: 8px;
-=======
     background-color: #333;
     color:#f0f0f0;
     padding: 10px;
     margin: 10px;
     border-radius: 8px;
     text-align: center;
->>>>>>> ac00c30964af5c1960870206f57cbc39427077f6
 }
