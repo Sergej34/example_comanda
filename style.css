@@ -39,3 +39,9 @@ li {
 li:hover {
   background-color: #ccf34c;
 }
+.footer {
+    background-color: #333;
+    color:#f0f0f0;
+    padding: 10%;
+    margin: 10px;
+}
