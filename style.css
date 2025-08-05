@@ -38,10 +38,10 @@ main {
 
 .team-list li {
   padding: 15px 0;
-  font-size: 2.2em; /* увеличенный размер шрифта */
-  color: purple; /* фиолетовый цвет текста */
+  font-size: 2.2em;
+  color: purple;
   border-bottom: 1px solid #ccc;
-  cursor: pointer; /* чтобы было видно, что элемент интерактивный */
+  cursor: pointer;
   transition: color 0.3s ease;
 }
 
@@ -70,13 +70,13 @@ li:hover {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #9a9a9a;
-    color:#f0f0f0;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #9a9a9a;
+  color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
 }
