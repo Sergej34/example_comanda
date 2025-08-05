@@ -1,15 +1,19 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+  background-size: cover;
+  background-position: center;
   margin: 0;
   padding: 20px;
+  color: #333;
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: rgba(76, 175, 80, 0.9);
   color: white;
   padding: 20px;
   border-radius: 8px;
+  text-align: center;
 }
 
 h1 {
@@ -17,11 +21,32 @@ h1 {
 }
 
 main {
-  background-color: rgb(110, 84, 84);
-  margin-top: 15px;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.team-list li {
+  padding: 15px 0;
+  font-size: 2.2em; /* увеличенный размер шрифта */
+  color: purple; /* фиолетовый цвет текста */
+  border-bottom: 1px solid #ccc;
+  cursor: pointer; /* чтобы было видно, что элемент интерактивный */
+  transition: color 0.3s ease;
+}
+
+.team-list li:last-child {
+  border-bottom: none;
 }
 
 ul {
@@ -30,18 +55,25 @@ ul {
 }
 
 li {
-  padding: 5px 0;
-  font-size: 1.1em;
+  padding: 8px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 li:hover {
-  background-color: #ccf34c;
+  background-color: #d4ffb2;
+  transform: scale(1.05);
+  border-radius: 4px;
 }
+
 .footer {
-    background-color: #333;
-    color:#f0f0f0;
-    padding: 10%;
-    margin: 10px;
+  background-color: #333;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
 }
